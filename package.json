@@ -1,0 +1,28 @@
+{
+  "name": "tailwind-bp",
+  "version": "1.0.0",
+  "description": "Tailwind CSS boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss ./src/styles.css -o ./public/styles.css",
+    "prod": "NODE_ENV=production postcss ./src/styles.css -o ./public/styles.css",
+	"start": "live-server ./public"
+  },
+  "keywords": [
+	  "Tailwind CSS",
+	  "Tailwind Boilerplate"
+  ],
+  "author": "@maperezotero",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.3",
+    "win-node-env": "^0.4.0"
+  },
+  "repository": {
+	  "type": "git",
+	  "url": "https://github.com/maperezotero/tailwind-bp.git"
+  }
+}
